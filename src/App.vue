@@ -189,7 +189,7 @@
 
     <div class="hidden md:flex items-center justify-center mt-10 space-x-12">
       <a
-        href="mailto:joaogabrielapsss@gmail.com"
+        href="mailto:joao@joao-global-software-development.dev"
         target="_blank"
         class="font-source-code font-normal text-base text-paleBlue inline-flex items-center px-4 py-2 rounded border-solid border-2 border-turquoise button-shadow hover:outline-noe hover:bg-aquamarine hover:bg-opacity-10"
       >
@@ -227,7 +227,7 @@
     </div>
     <div class="md:hidden grid grid-cols-1 gap-4 mt-10">
       <a
-        href="mailto:joaogabrielapsss@gmail.com"
+        href="mailto:joao@joao-global-software-development.dev"
         target="_blank"
         class="place-self-center w-36 font-source-code font-normal text-base text-paleBlue inline-flex items-center px-4 py-2 rounded border-solid border-2 border-turquoise button-shadow hover:outline-noe hover:bg-aquamarine hover:bg-opacity-10"
       >
