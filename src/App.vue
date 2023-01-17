@@ -37,7 +37,7 @@
       class="grid grid-cols-1 lg:grid-cols-2 space-y-12 lg:space-y-0 space-x-0 lg:space-x-24"
     >
       <div
-        class="border-solid border-2 border-turquoise button-shadow rounded w-[320px] max-h-[252px] md:w-[420px] md:max-h-[352px] justify-self-center"
+        class="border-solid border-2 border-turquoise button-shadow rounded w-[320px] md:w-[420px] justify-self-center"
       >
         <img :src="profileImage" alt="profile image" class="w-full h-full" />
       </div>
