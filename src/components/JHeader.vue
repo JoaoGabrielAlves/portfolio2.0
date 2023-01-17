@@ -69,18 +69,14 @@
         </div>
       </div>
 
-      <HamburgerMenu :show-menu="showMenu" @close="showMenu = false" />
+      <JHamburgerMenu :show-menu="showMenu" @close="showMenu = false" />
     </nav>
   </header>
 </template>
 
 <script setup>
-import { defineComponent, ref } from "vue";
-import HamburgerMenu from "@/components/HamburgerMenu.vue";
+import JHamburgerMenu from "@/components/JHamburgerMenu.vue";
+import { ref } from "vue";
 
 const showMenu = ref(false);
-
-defineComponent({
-  name: "DashboardHeader",
-});
 </script>

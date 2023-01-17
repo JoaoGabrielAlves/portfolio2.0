@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <JHeader />
 
   <div class="mx-auto px-12 py-8 lg:py-0 lg:pt-24">
     <div class="flex items-center justify-center md:block">
@@ -46,13 +46,13 @@
           About me
         </h2>
         <p class="font-outfit text-xl md:text-xl mt-8 md:mt-10 text-white">
-          I am a young Brazilian software developer who is passionate about
-          learning and expanding my knowledge of various technologies, with a
-          focus on the laravel framework and its ecosystem. My main technologies
-          at the moment are:
+          I am a software developer who is passionate about learning and
+          expanding my knowledge of various technologies, with a focus on the
+          Laravel framework and its ecosystem. I help businesses launch and grow
+          their products. My main technologies at the moment are:
         </p>
         <div class="mt-4">
-          <div class="hidden items-center justify-between md:flex">
+          <div class="grid grid-cols-2 md:grid-cols-3 md:gap-2">
             <p
               class="font-source-code font-normal text-white text-base flex items-center space-x-2"
             >
@@ -101,8 +101,6 @@
               </span>
               <span> TailwindCSS </span>
             </p>
-          </div>
-          <div class="hidden items-center justify-between hidden md:flex">
             <p
               class="font-source-code font-normal text-white text-base flex items-center space-x-2"
             >
@@ -150,108 +148,6 @@
                 </svg>
               </span>
               <span> Typescript </span>
-            </p>
-          </div>
-          <div class="flex items-center justify-between md:hidden">
-            <p
-              class="font-source-code font-normal text-white text-base flex items-center space-x-2"
-            >
-              <span>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="7.5" cy="7.5" r="7.5" fill="#ADF1ED" />
-                </svg>
-              </span>
-              <span> Laravel </span>
-            </p>
-            <p
-              class="font-source-code font-normal text-white text-base flex items-center space-x-2"
-            >
-              <span>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="7.5" cy="7.5" r="7.5" fill="#ADF1ED" />
-                </svg>
-              </span>
-              <span> Livewire </span>
-            </p>
-          </div>
-          <div class="flex items-center justify-between md:hidden">
-            <p
-              class="font-source-code font-normal text-white text-base flex items-center space-x-2"
-            >
-              <span>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="7.5" cy="7.5" r="7.5" fill="#ADF1ED" />
-                </svg>
-              </span>
-              <span> React </span>
-            </p>
-            <p
-              class="font-source-code font-normal text-white text-base flex items-center space-x-2"
-            >
-              <span>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="7.5" cy="7.5" r="7.5" fill="#ADF1ED" />
-                </svg>
-              </span>
-              <span> Typescript </span>
-            </p>
-          </div>
-          <div class="flex items-center justify-between md:hidden">
-            <p
-              class="font-source-code font-normal text-white text-base flex items-center space-x-2"
-            >
-              <span>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="7.5" cy="7.5" r="7.5" fill="#ADF1ED" />
-                </svg>
-              </span>
-              <span> TailwindCSS </span>
-            </p>
-            <p
-              class="font-source-code font-normal text-white text-base flex items-center space-x-2"
-            >
-              <span>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="7.5" cy="7.5" r="7.5" fill="#ADF1ED" />
-                </svg>
-              </span>
-              <span> Vue </span>
             </p>
           </div>
         </div>
@@ -267,15 +163,11 @@
   </div>
 
   <div class="mx-auto px-12 py-8 lg:py-0">
-    <div
-      class="grid grid-cols-1 lg:grid-cols-2 space-y-12 lg:space-y-0 space-x-0 lg:space-x-24"
-    >
-      <div>
-        <h2 class="font-outfit font-extrabold text-paleBlue text-4xl">
-          Experience
-        </h2>
-      </div>
-    </div>
+    <h2 class="font-outfit font-extrabold text-paleBlue text-4xl">
+      Experience
+    </h2>
+
+    <JExperience />
   </div>
 
   <div class="mx-auto mx-12 mx-auto mx-12 py-6 lg:py-36">
@@ -288,8 +180,7 @@
     </div>
 
     <p class="font-outfit text-xl md:text-xl mt-10 text-white text-center">
-      My inbox is always open. Whether you have a question or just want to say
-      hi, I’ll try my best to get back to you!
+      Interested to work with me? Get in touch.
     </p>
 
     <div class="hidden md:flex items-center justify-center mt-10 space-x-12">
@@ -380,9 +271,10 @@
   </div>
 </template>
 <script setup>
-import Header from "@/components/Header.vue";
+import JHeader from "@/components/JHeader.vue";
 
 import profileImage from "./assets/profile.jpeg";
+import JExperience from "@/components/JExperience.vue";
 </script>
 <style>
 .jg {
