@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:flex lg:justify-around lg:items-center mt-4 md:mx-12">
+  <div class="lg:flex lg:justify-around lg:items-center mt-4 lg:mx-12">
     <nav
       aria-label="Experience navigation desktop"
       class="w-full py-8 block justify-center items-center lg:flex"

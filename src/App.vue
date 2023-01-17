@@ -42,9 +42,11 @@
         <img :src="profileImage" alt="profile image" class="w-full h-full" />
       </div>
       <div>
-        <h2 class="font-outfit font-extrabold text-paleBlue text-4xl">
-          About me
-        </h2>
+        <div class="flex items-center justify-center lg:justify-start">
+          <h2 class="font-outfit font-extrabold text-paleBlue text-4xl">
+            About me
+          </h2>
+        </div>
         <p class="font-outfit text-xl md:text-xl mt-8 md:mt-10 text-white">
           I am a software developer who is passionate about learning and
           expanding my knowledge of various technologies, with a focus on the
@@ -163,9 +165,11 @@
   </div>
 
   <div class="mx-auto px-12 py-8 lg:py-0">
-    <h2 class="font-outfit font-extrabold text-paleBlue text-4xl">
-      Experience
-    </h2>
+    <div class="flex items-center justify-center lg:justify-start">
+      <h2 class="font-outfit font-extrabold text-paleBlue text-4xl">
+        Experience
+      </h2>
+    </div>
 
     <JExperience />
   </div>
@@ -175,7 +179,7 @@
   </div>
 
   <div class="mx-auto px-12 py-8 lg:py-0 lg:pb-16" id="contact">
-    <div class="flex items-center lg:justify-center">
+    <div class="flex items-center justify-center">
       <h2 class="font-outfit font-extrabold text-paleBlue text-4xl">Contact</h2>
     </div>
 
