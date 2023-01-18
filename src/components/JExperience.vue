@@ -26,7 +26,7 @@
                   >
                     <img
                       :src="job.logo"
-                      alt="Zapiet logo"
+                      :alt="job.company"
                       class="rounded-full w-full h-full object-cover"
                     />
                   </span>
@@ -57,12 +57,6 @@
       <h3 class="inline font-outfit font-bold text-white">
         {{ jobs[selectedJob].title }}
       </h3>
-
-      <span
-        class="font-outfit font-medium text-base inline lg:hidden ml-2 text-turquoise"
-      >
-        {{ jobs[selectedJob].period }}
-      </span>
 
       <p class="font-outfit font-normal text-sm mt-4 text-white">
         {{ jobs[selectedJob].description }}
@@ -142,9 +136,9 @@ const jobs = ref([
     ],
   },
   {
-    company: "LBA Diligências",
+    company: "LBA",
     logo: lbaLogo,
-    title: "Full stack web developer (Freelance)",
+    title: "Full stack web developer (BR)",
     description:
       "Continued development of the LBA - Diligências Jurídicas web site using TALL stack.",
     period: "2020 - 2021",
