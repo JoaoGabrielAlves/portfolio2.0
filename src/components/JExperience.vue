@@ -138,7 +138,7 @@ const jobs = ref([
   {
     company: "LBA",
     logo: lbaLogo,
-    title: "Full stack web developer (BR)",
+    title: "Remote full stack web developer (BR)",
     description:
       "Continued development of the LBA - Diligências Jurídicas web site using TALL stack.",
     period: "2020 - 2021",
