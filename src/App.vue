@@ -280,11 +280,3 @@ import JHeader from "@/components/JHeader.vue";
 import profileImage from "./assets/profile.jpeg";
 import JExperience from "@/components/JExperience.vue";
 </script>
-<style>
-.jg {
-  fill: none;
-  stroke: #41e4bd;
-  stroke-miterlimit: 10;
-  stroke-width: 5px;
-}
-</style>

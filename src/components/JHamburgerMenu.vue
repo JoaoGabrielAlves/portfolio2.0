@@ -69,6 +69,7 @@
             <nav class="grid gap-y-8">
               <a
                 href="#about"
+                @click="emits('close')"
                 class="font-outfit font-normal text-base text-paleBlue hover:text-waterSpout"
               >
                 About
@@ -76,6 +77,7 @@
 
               <a
                 href="#experience"
+                @click="emits('close')"
                 class="font-outfit font-normal text-base text-paleBlue hover:text-waterSpout"
               >
                 Experience
@@ -83,6 +85,7 @@
 
               <a
                 href="#contact"
+                @click="emits('close')"
                 class="font-outfit font-normal text-base text-paleBlue hover:text-waterSpout"
               >
                 Contact
