@@ -108,14 +108,14 @@ const jobs = ref([
     description:
       "Continued development of Friday Finance main project using Nuxt and Graphql.",
     period: "2022 - Now",
-    skills: ["Graphql", "Vue", "Nuxt", "Prisma", "ApolloServer", "PostgresSql"],
+    skills: ["Graphql", "Vue", "Nuxt", "Prisma", "ApolloServer", "PostgreSQL"],
   },
   {
     company: "Zapiet",
     logo: zapietLogo,
     title: "Remote full stack software developer (UK)",
     description:
-      "Shopify apps using React and Laravel APIs integrated Shopify APIs.",
+      "Build Shopify apps using React and Laravel APIs integrated Shopify APIs.",
     period: "2022 - Now",
     skills: ["APIs", "Laravel", "Typescript", "React", "MySQL", "Bootstrap"],
   },
