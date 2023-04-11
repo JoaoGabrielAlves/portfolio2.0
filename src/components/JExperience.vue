@@ -54,11 +54,11 @@
       </div>
     </nav>
     <div class="w-full min-h-full mt-4 lg:mt-0">
-      <h3 class="inline font-outfit font-bold text-white">
+      <h3 class="inline font-outfit text-xl font-bold text-white">
         {{ jobs[selectedJob].title }}
       </h3>
 
-      <p class="font-outfit font-normal text-sm mt-4 text-white">
+      <p class="font-outfit font-normal text-xl mt-4 text-white">
         {{ jobs[selectedJob].description }}
       </p>
 
@@ -107,7 +107,7 @@ const jobs = ref([
     title: "Remote Fullstack software developer (GE)",
     description:
       "Continued development of Friday Finance main project using Nuxt and Graphql.",
-    period: "2022 - Now",
+    period: "Sep 2022 - Now",
     skills: ["Graphql", "Vue", "Nuxt", "Prisma", "ApolloServer", "PostgreSQL"],
   },
   {
@@ -116,7 +116,7 @@ const jobs = ref([
     title: "Remote full stack software developer (UK)",
     description:
       "Build Shopify apps using React and Laravel APIs integrated Shopify APIs.",
-    period: "2022 - Now",
+    period: "Sep 2021 - Sep 2022",
     skills: ["APIs", "Laravel", "Typescript", "React", "MySQL", "Bootstrap"],
   },
   {
@@ -125,7 +125,7 @@ const jobs = ref([
     title: "Remote full stack software developer (USA)",
     description:
       "Build multiple projects for DevsQuad clients using TALL stack along side frontend frameworks like React and Vue.",
-    period: "2021 - 2022",
+    period: "Oct 2020 - Sep 2021",
     skills: [
       "Laravel",
       "TailwindCSS",
@@ -141,7 +141,7 @@ const jobs = ref([
     title: "Remote full stack web developer (BR)",
     description:
       "Continued development of the LBA - Diligências Jurídicas web site using TALL stack.",
-    period: "2020 - 2021",
+    period: "May 2020 - Oct 2020",
     skills: [
       "Laravel",
       "TailwindCSS",
