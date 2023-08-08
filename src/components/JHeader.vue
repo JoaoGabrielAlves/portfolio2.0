@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="mx-auto px-4 sm:px-6" aria-label="Top">
+    <nav class="mx-auto px-12" aria-label="Top">
       <div class="w-full py-6 flex items-center justify-between">
         <div class="flex items-center">
           <a href="#" @click.prevent>

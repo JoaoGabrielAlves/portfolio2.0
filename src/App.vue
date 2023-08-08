@@ -48,10 +48,18 @@
           </h2>
         </div>
         <p class="font-outfit text-xl md:text-xl mt-8 md:mt-10 text-white">
-          I am a software developer who is passionate about learning and
-          expanding my knowledge of various technologies, with a focus on the
-          Laravel framework and its ecosystem. I help businesses launch and grow
-          their products. My main technologies at the moment are:
+          Full Stack Developer with over 3 years of experience developing and
+          maintaining web applications using Laravel, TypeScript, and Node.js,
+          Nuxt and TailwindCSS. With expertise in modern web development
+          practices such as responsive design, accessibility, and cross-browser
+          compatibility. Passionate to continuous learning and staying abreast
+          of emerging technologies and industry trends to enhance my work. As a
+          problem solver with strong analytical skills, besides communication
+          skills, I embrace a feedback-driven culture that fosters
+          open-mindedness and encourages constructive challenge, confident in my
+          ability to develop high-quality, innovative UIs and robust API to
+          drive the experience for customers, in a fast paced and dynamic
+          start-up environment. My expertise is on the following technologies.
         </p>
         <div class="mt-4">
           <div class="grid grid-cols-2 md:grid-cols-3 md:gap-2">

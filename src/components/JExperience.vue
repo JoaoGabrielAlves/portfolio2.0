@@ -104,7 +104,7 @@ const jobs = ref([
   {
     company: "Friday Finance",
     logo: fridayFinanceLogo,
-    title: "Remote Fullstack software developer (GE)",
+    title: "Full Stack Engineer",
     description:
       "Continued development of Friday Finance main project using Nuxt and Graphql.",
     period: "Sep 2022 - Now",
@@ -113,7 +113,7 @@ const jobs = ref([
   {
     company: "Zapiet",
     logo: zapietLogo,
-    title: "Remote full stack software developer (UK)",
+    title: "Full Stack Developer",
     description:
       "Build Shopify apps using React and Laravel APIs integrated Shopify APIs.",
     period: "Sep 2021 - Sep 2022",
@@ -122,7 +122,7 @@ const jobs = ref([
   {
     company: "DevSquad",
     logo: devsquadLogo,
-    title: "Remote full stack software developer (USA)",
+    title: "Full Stack Engineer",
     description:
       "Build multiple projects for DevsQuad clients using TALL stack along side frontend frameworks like React and Vue.",
     period: "Oct 2020 - Sep 2021",
@@ -138,7 +138,7 @@ const jobs = ref([
   {
     company: "LBA",
     logo: lbaLogo,
-    title: "Remote full stack web developer (BR)",
+    title: "Full Stack Engineer",
     description:
       "Continued development of the LBA - Diligências Jurídicas web site using TALL stack.",
     period: "May 2020 - Oct 2020",
