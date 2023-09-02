@@ -9,7 +9,7 @@
   >
     <div
       v-if="props.showMenu"
-      class="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
+      class="m-4 absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden border rounded border-turquoise"
     >
       <div
         class="divide-y-2 divide-gray-50 rounded-lg bg-darkGunmetal shadow-lg ring-1 ring-black ring-opacity-5"

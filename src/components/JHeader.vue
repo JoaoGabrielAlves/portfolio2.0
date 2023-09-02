@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header ref="header">
     <nav class="mx-auto px-12" aria-label="Top">
       <div class="w-full py-6 flex items-center justify-between">
         <div class="flex items-center">
@@ -76,7 +76,33 @@
 
 <script setup>
 import JHamburgerMenu from "@/components/JHamburgerMenu.vue";
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const showMenu = ref(false);
+const header = ref(null);
+
+function handleClickOutside(event) {
+  if (showMenu.value && header.value) {
+    const headerRect = header.value.getBoundingClientRect();
+    const clickX = event.clientX;
+    const clickY = event.clientY;
+
+    if (
+      clickX < headerRect.left ||
+      clickX > headerRect.right ||
+      clickY < headerRect.top ||
+      clickY > headerRect.bottom
+    ) {
+      showMenu.value = false;
+    }
+  }
+}
+
+onMounted(() => {
+  document.body.addEventListener("click", handleClickOutside);
+});
+
+onUnmounted(() => {
+  document.body.removeEventListener("click", handleClickOutside);
+});
 </script>
