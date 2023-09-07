@@ -52,18 +52,17 @@
         <div
           v-if="!showMenu"
           @click="showMenu = !showMenu"
-          class="py-4 flex flex-wrap justify-center space-x-6 md:hidden"
+          class="py-4 flex flex-wrap justify-center space-x-6 md:hidden cursor-pointer"
         >
           <svg
+            class="fill-paleBlue hover:fill-aquamarine"
             width="18"
             height="14"
             viewBox="0 0 18 14"
-            fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M0 1.375C0 0.752734 0.574554 0.25 1.28571 0.25H16.7143C17.4254 0.25 18 0.752734 18 1.375C18 1.99727 17.4254 2.5 16.7143 2.5H1.28571C0.574554 2.5 0 1.99727 0 1.375ZM0 7C0 6.37773 0.574554 5.875 1.28571 5.875H16.7143C17.4254 5.875 18 6.37773 18 7C18 7.62227 17.4254 8.125 16.7143 8.125H1.28571C0.574554 8.125 0 7.62227 0 7ZM18 12.625C18 13.2473 17.4254 13.75 16.7143 13.75H1.28571C0.574554 13.75 0 13.2473 0 12.625C0 12.0027 0.574554 11.5 1.28571 11.5H16.7143C17.4254 11.5 18 12.0027 18 12.625Z"
-              fill="#ADF1ED"
             />
           </svg>
         </div>
