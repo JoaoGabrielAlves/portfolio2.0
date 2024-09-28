@@ -48,7 +48,7 @@
           </h2>
         </div>
         <p class="font-outfit text-xl md:text-xl mt-8 md:mt-10 text-white">
-          Full Stack Developer with over 3 years of experience developing and
+          Full Stack Developer with over 4 years of experience developing and
           maintaining web applications using Laravel, TypeScript, and Node.js,
           Nuxt and TailwindCSS. With expertise in modern web development
           practices such as responsive design, accessibility, and cross-browser
@@ -277,7 +277,7 @@
     <span
       class="font-source-code font-normal text-paleBlue text-xs md:text-base"
     >
-      @2023 Joao Global Software Development LLC | 30 N Gould St Ste R,
+      @2024 Joao Global Software Development LLC | 30 N Gould St Ste R,
       Sheridan, WY 82801, USA | +1 (628) 600-5184
     </span>
   </div>
