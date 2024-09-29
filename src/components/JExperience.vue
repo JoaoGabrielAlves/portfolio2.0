@@ -9,7 +9,7 @@
           <li v-for="(job, index) in jobs" :key="'list' + index">
             <div class="relative pb-8">
               <span
-                v-if="index !== 3"
+                v-if="index !== jobs.length - 1"
                 class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-paleBlue"
                 aria-hidden="true"
               ></span>
@@ -94,6 +94,7 @@
 import { ref } from "vue";
 
 import fridayFinanceLogo from "../assets/logo_friday_finance.png";
+import abraLogo from "../assets/abra_logo.jpeg";
 import zapietLogo from "../assets/zapiet_logo.png";
 import devsquadLogo from "../assets/devsquad_logo.jpeg";
 import lbaLogo from "../assets/lba_logo.jpeg";
@@ -102,37 +103,96 @@ const selectedJob = ref(0);
 
 const jobs = ref([
   {
+    company: "Abra",
+    logo: abraLogo,
+    title: "Senior FullStack Engineer",
+    description:
+      "As a Senior Software Engineer at Abra, I take a lead role in designing and developing critical new features from scratch, ensuring they align with business goals and meet the highest standards of quality and performance. My work involves full-cycle development, from gathering requirements and designing architecture to coding, testing, and deploying scalable solutions. I collaborate closely with cross-functional teams, including product managers, designers, and other engineers, to deliver innovative software solutions that drive significant value for the company.",
+    period: "Feb 2024 - Now",
+    skills: [
+      "Node.JS",
+      "Javascript",
+      "CSS",
+      "Typescript",
+      "Git",
+      "Next.js",
+      "React",
+      "GraphQL",
+      "PostgreSQL",
+      "Prisma",
+      "API",
+      "Full Stack Development",
+      "Rest",
+      "Google Cloud/GCloud",
+    ],
+  },
+  {
     company: "Friday Finance",
     logo: fridayFinanceLogo,
     title: "Full Stack Engineer",
     description:
-      "Continued development of Friday Finance main project using Nuxt and Graphql.",
-    period: "Sep 2022 - Now",
-    skills: ["Graphql", "Vue", "Nuxt", "Prisma", "ApolloServer", "PostgreSQL"],
+      "Responsible for developing and maintaining Friday Finance’s main product, contributing to its success by providing daily updates, resolving blockers, and building custom components with strict adherence to code guidelines for optimal performance. This includes optimizing the database for better scalability and security, integrating third-party APIs to enhance functionality, and ensuring a cohesive user interface. Additionally, thorough documentation using tools like Storybook and GitHub supports efficient onboarding and bug tracking.",
+    period: "Sep 2022 - Feb 2024",
+    skills: [
+      "Node.JS",
+      "Javascript",
+      "CSS",
+      "TailwindCSS",
+      "Git",
+      "HTML5",
+      "Typescript",
+      "Storybook",
+      "Nuxt",
+      "Vue",
+      "GraphQL",
+      "PostgreSQL",
+      "Prisma",
+      "API",
+      "Web Development",
+      "SQL",
+    ],
   },
   {
     company: "Zapiet",
     logo: zapietLogo,
     title: "Full Stack Developer",
     description:
-      "Build Shopify apps using React and Laravel APIs integrated Shopify APIs.",
+      "As a Full Stack Developer at Zapiet, I implemented automated tests using PHPUnit, PestPHP, and Laravel Dusk, integrating them into Bitbucket CI/CD pipelines with Docker, which reduced user errors by 60%. I conducted code reviews to improve quality and contributed to frontend development using React, Shopify app bridge, and Node.js, optimizing user experience and performance. On the backend, I managed databases with Laravel, Vapor, and Redis, enhancing security and scalability. I also integrated third-party APIs to boost efficiency and refactored legacy code to reduce technical debt while continually learning new technologies to stay up-to-date.",
     period: "Sep 2021 - Sep 2022",
-    skills: ["APIs", "Laravel", "Typescript", "React", "MySQL", "Bootstrap"],
+    skills: [
+      "Laravel",
+      "Redis",
+      "MyySQL",
+      "Node.JS",
+      "React",
+      "Git",
+      "Bitbucket",
+      "CI/CD",
+      "Docker",
+      "Containers",
+    ],
   },
   {
     company: "DevSquad",
     logo: devsquadLogo,
     title: "Full Stack Engineer",
     description:
-      "Build multiple projects for DevsQuad clients using TALL stack along side frontend frameworks like React and Vue.",
+      "As a Full Stack Engineer at DevSquad, I estimated tasks using Agile methodologies and managed them via Jira. I implemented automated tests with PHPUnit, PestPHP, and Laravel Dusk, improving software quality and reliability. Through query optimization and database tuning, I achieved a 40% improvement in API response times. I resolved bugs, leading to a 20% reduction in customer-reported issues, and contributed to frontend tasks, enhancing user satisfaction by 25%. I also refactored legacy code to reduce technical debt and participated in GitHub PR reviews to improve code quality.",
     period: "Oct 2020 - Sep 2021",
     skills: [
       "Laravel",
-      "TailwindCSS",
       "Livewire",
-      "AlpineJS",
+      "React",
+      "PHPUnit",
+      "PestPHP",
       "MySQL",
-      "Vue & React",
+      "Jira",
+      "Eloquent",
+      "Git",
+      "TailwindCSS",
+      "Redis",
+      "Multitenancy",
+      "Laravel Dusk",
     ],
   },
   {
@@ -140,14 +200,19 @@ const jobs = ref([
     logo: lbaLogo,
     title: "Full Stack Engineer",
     description:
-      "Continued development of the LBA - Diligências Jurídicas web site using TALL stack.",
+      "As a Full Stack Engineer at LBA Diligências Juridicas, I set sprint goals using Agile methodologies and managed tasks to align with business objectives. I gathered requirements through Jira and Kanban to define project scope and improve communication. By managing server infrastructure, I optimized costs, reducing them by 20% while maintaining scalability and reliability. On the frontend, I enhanced user experience with Livewire, AlpineJS, and TailwindCSS, improving load times by 20%. I also implemented automated tests using PHPUnit and Laravel Dusk and improved UI/UX to boost user satisfaction and reduce support costs.",
     period: "May 2020 - Oct 2020",
     skills: [
       "Laravel",
       "TailwindCSS",
-      "Livewire",
-      "AlpineJS",
+      "Redis",
       "MySQL",
+      "PHPUnit",
+      "TailwindCSS",
+      "Blade",
+      "AlpineJS",
+      "Livewire",
+      "Jira",
       "Digital Ocean",
     ],
   },
